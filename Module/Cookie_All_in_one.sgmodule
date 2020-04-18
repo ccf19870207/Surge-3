@@ -173,7 +173,7 @@ loulancheck.js = script-path=https://raw.githubusercontent.com/nzw9314/Quantumul
 cmbchina.js = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/cmbchina.js,type=http-request,pattern=https://weclub\.ccc\.cmbchina.com/SCRMCustomActivityFront/checkin/request/get-home-data\.json\?activityCode=checkin
 # > 微信小程序 活动抽奖 (By @makexp & @zZPiglet)
 # 打开微信小程序 进入”活动抽奖”，手动签到一次或点击”已签到”
-WeChatLottery_new.js = script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/WeChatLottery/WeChatLottery_new.js,type=http-request,pattern=^https:\/\/api-hdcj\.9w9\.com\/v\d\/sign
+WeChatLottery_new.js = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/WeChatLottery_new.js,type=http-request,pattern=^https:\/\/api-hdcj\.9w9\.com\/v\d\/sign
 # > 微信喜马拉雅 (By @makexp)
 xmly_wc.js = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/xmly_wc.js,type=http-request,pattern=https://m.ximalaya.com/wechat/
 # > 360扫地机 (By @qiaoborui)
