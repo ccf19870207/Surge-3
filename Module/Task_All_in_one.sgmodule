@@ -71,7 +71,7 @@ feng.js = type=cron,cronexp=50 0 0 * * *,script-path=https://raw.githubuserconte
 flyertea.js = type=cron,cronexp=55 0 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/flyertea/flyertea.js,script-update-interval=0
 # 网易云音乐
 # 浏览器访问并登录: https://music.163.com/m/login
-neteasemusic.js = type=cron,cronexp=0 1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/quanx/neteasemusic.js,script-update-interval=0
+neteasemusic.js = type=cron,cronexp=0 1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js,script-update-interval=0
 # 网易新闻
 # 打开 APP 然后手动签到 1 次
 neteasenews.js = type=cron,cronexp=5 1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasenews/neteasenews.js,script-update-interval=0
@@ -87,13 +87,13 @@ rrtv.js = type=cron,cronexp=15 1 0 * * *,script-path=https://raw.githubuserconte
 sfexpress.js = type=cron,cronexp=20 1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js,script-update-interval=0
 # 什么值得买
 # 浏览器访问并登录: https://zhiyou.smzdm.com/user/login
-smzdm.js = type=cron,cronexp=25 1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/quanx/smzdm.js,script-update-interval=0
+smzdm.js = type=cron,cronexp=25 1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.js,script-update-interval=0
 # 百度签到
 # 先登录,浏览器访问一下: https://tieba.baidu.com 或者 https://tieba.baidu.com/index/
 tieba.js = type=cron,cronexp="0 0,1,2 0 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js,script-update-interval=0
 # V2EX
 # 浏览器打开https://www.v2ex.com/mission/daily ，待弹出获取成功即可
-v2ex.js = type=cron,cronexp=30 1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/quanx/v2ex.js,script-update-interval=0
+v2ex.js = type=cron,cronexp=30 1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/v2ex.js,script-update-interval=0
 # 腾讯视频
 # 1.手机浏览器访问并登录: https://film.qq.com/
 videoqq.js = type=cron,cronexp=35 1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js,script-update-interval=0
