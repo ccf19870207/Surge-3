@@ -261,16 +261,20 @@ Zaker = type=cron,cronexp=55 3 0 * * *,script-path=https://raw.githubusercontent
 #2.打开微博钱包点击签到，获取Cookie，
 #3.钱包已经签到无法获取
 微博(钱包) = type=cron,cronexp=35 0 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js,script-update-interval=0
-# > 360扫地机 (By @qiaoborui)
-# 首页右上角-签到🎁
-360扫地机 = type=cron,cronexp=55 5 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/360.js,script-update-interval=0
-# > 喜马拉雅极速版
+# > 喜马拉雅极速版(By @Macsuny)
 # APP登陆账号后，点击右下角’福利’选项,即可获取Cookie.
 # 每隔一小时开启一次，每天最多5次，金币账户与标准版不同账户
 喜马拉雅极速版 = type=cron,cronexp=0 6 0-5/1 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/xmspeed.js
+# > 新浪新闻(By @Macsuny)
+# 1.打开app,点击”我的“=>”签到“，获取第一个Cookie，通知获取信息成功
+# 2.在未签到情况下，先禁用第一条Cookie链接，然后再次进入签到，通知获取签到Cookie成功
+新浪新闻 = type=cron,cronexp=0 5 0 * * *,script-path=Script/txnews.jshttps://raw.githubusercontent.com/Sunert/Scripts/master/Task/sinanews.js
 # > 微信小程序-活动抽奖 (By @makexp & @zZPiglet)
 #打开微信小程序 进入“活动抽奖”，手动签到一次或点击“已签到”
 活动抽奖 = type=cron,cronexp=0 6 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/WeChatLottery_new.js
 # > 微信小程序-喜马拉雅 (By @makexp)
 # 微信小程序 - 喜马拉雅 - 我的： 签到 “ 获取 Cookie
 微信小程序-喜马拉雅 = type=cron,cronexp=5 6 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/xmly_wc.js
+# > 360扫地机 (By @qiaoborui)
+# 首页右上角-签到🎁
+360扫地机 = type=cron,cronexp=55 5 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/360.js,script-update-interval=0
