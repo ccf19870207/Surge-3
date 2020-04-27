@@ -225,7 +225,7 @@ Zaker = type=cron,cronexp=55 3 0 * * *,script-path=https://raw.githubusercontent
 携程旅行 = type=cron,cronexp=45 4 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/ctrip.js,script-update-interval=0
 # > 中国电信套餐 (By @uchvk& @Macsuny)
 # 下载安装 天翼账号中心 登录
-中国电信套餐 = type=cron,cronexp=50 4 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/telecomInfinity.js,script-update-interval=0
+中国电信套餐 = type=cron,cronexp=50 4 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/telecomInfinity.js,script-update-interval=0
 # > 腾讯新闻 (By 红鲤鱼与绿鲤鱼与驴 & Macsuny))
 # 打开腾讯新闻app，阅读一篇文章，右下角出现红包，倒计时结束后即可
 腾讯新闻 = type=cron,cronexp=35 0 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js,script-update-interval=0
@@ -246,16 +246,16 @@ Zaker = type=cron,cronexp=55 3 0 * * *,script-path=https://raw.githubusercontent
 微信小程序-同程艺龙info.js = type=cron,cronexp=20 5 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/tongc_info.js,script-update-interval=0
 # > 京东到家 (@barrymchen, @GideonSenku & @Macsuny)
 # APP登陆账号后，点击主页’签到‘,即可
-京东到家 = type=cron,cronexp=25 5 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jddj.js,script-update-interval=0
+京东到家 = type=cron,cronexp=25 5 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js,script-update-interval=0
 # > 微信小程序-来客有礼 (By @Macsuny)
 # 微信搜索’来客有礼‘小程序,登陆京东账号，点击’领京豆->翻牌‘
-来客有礼 = type=cron,cronexp=30 5 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/lkyl.js,script-update-interval=0
+来客有礼 = type=cron,cronexp=30 5 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js,script-update-interval=0
 # > 电视家 (By @Macsuny)
 # APP登陆账号后，点击底部’赚赚‘进入签到页面,即可获取Cookie.
-电视家 = type=cron,cronexp=35 5 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/dianshijia.js,script-update-interval=0
+电视家 = type=cron,cronexp=35 5 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/dianshijia.js,script-update-interval=0
 # > 快手极速版 (By @Macsuny)
 # APP登陆账号后，点击’钱包‘
-快手极速版 = type=cron,cronexp=40 5 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/kuaishou.js,script-update-interval=0
+快手极速版 = type=cron,cronexp=40 5 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/kuaishou.js,script-update-interval=0
 # > 微博 & 微博钱包 (By @Macsuny)
 #1.打开微博App获取Cookie.获取后请注释或禁用Cookie
 #2.打开微博钱包点击签到，获取Cookie，
@@ -267,7 +267,7 @@ Zaker = type=cron,cronexp=55 3 0 * * *,script-path=https://raw.githubusercontent
 # > 喜马拉雅极速版
 # APP登陆账号后，点击右下角’福利’选项,即可获取Cookie.
 # 每隔一小时开启一次，每天最多5次，金币账户与标准版不同账户
-喜马拉雅极速版 = type=cron,cronexp=0 6 0-5/1 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/xmspeed.js
+喜马拉雅极速版 = type=cron,cronexp=0 6 0-5/1 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/xmspeed.js
 # > 微信小程序-活动抽奖 (By @makexp & @zZPiglet)
 #打开微信小程序 进入“活动抽奖”，手动签到一次或点击“已签到”
 活动抽奖 = type=cron,cronexp=0 6 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/WeChatLottery_new.js
