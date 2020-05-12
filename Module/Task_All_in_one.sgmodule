@@ -45,11 +45,14 @@ TestFlight公测监控 = script-path=https://raw.githubusercontent.com/songyangz
 # > 京东
 京东 = type=cron,cronexp=0 0 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,script-update-interval=0
 # > 爱奇艺
-爱奇艺 = type=cron,cronexp=5 0 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/iQIYI-DailyBonus/iQIYI_DailyBonus.js,script-update-interval=0
+爱奇艺 = type=cron,cronexp=5 0 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js,script-update-interval=0
 # > 吾爱破解
-吾爱破解 = type=cron,cronexp=10 0 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/52pojieDailyBonus/52pojie.js,script-update-interval=0
+吾爱破解 = type=cron,cronexp=10 0 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js,script-update-interval=0
 # > 哔哩哔哩漫画
 哔哩哔哩漫画 = type=cron,cronexp=15 0 0 * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js,script-update-interval=0
+# > 百度签到
+# 打开App,点击'我的'
+百度贴吧 = type=cron,cronexp="0 0,1,2 0 * * *",script-path=https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js,script-update-interval=0
 
 # @chavyleung
 # 电信营业厅
@@ -94,9 +97,6 @@ APK.TW = type=cron,cronexp=30 0 0 * * *,script-path=https://raw.githubuserconten
 # 什么值得买
 # 浏览器访问并登录: https://zhiyou.smzdm.com/user/login
 什么值得买 = type=cron,cronexp=25 1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.js,script-update-interval=0
-# 百度签到
-# 先登录,浏览器访问一下: https://tieba.baidu.com 或者 https://tieba.baidu.com/index/
-百度贴吧 = type=cron,cronexp="0 0,1,2 0 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js,script-update-interval=0
 # V2EX
 # 浏览器打开https://www.v2ex.com/mission/daily ，待弹出获取成功即可
 v2ex.js = type=cron,cronexp=30 1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/v2ex.js,script-update-interval=0
@@ -214,7 +214,6 @@ Zaker = type=cron,cronexp=55 3 0 * * *,script-path=https://raw.githubusercontent
 # 阅读时长获取Cookie:打开 APP 选取文章阅读， `书城` > `任意文章阅读` 等到提示获取Cookie成功即可
 米读签到 = type=cron,cronexp=10 0 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/midu/miduSign.js,script-update-interval=0
 米读阅读 = type=cron,cronexp=0 * * * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/midu/miduRead.js,script-update-interval=0
-
 # > 多看
 # `我的` > `签到任务` 等到提示获取 Cookie 成功即可
 多看 = type=cron,cronexp=20 4 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/duokan/duokan.js,script-update-interval=0
