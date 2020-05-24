@@ -60,7 +60,7 @@ yanxuan.cookie.js = script-path=https://raw.githubusercontent.com/chavyleung/scr
 # > APK.TW
 apktw.cookie.js = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/apktw/apktw.cookie.js,type=http-request,pattern=^https:\/\/apk\.tw\/?.?
 # > 去哪儿
-qunar.cookie.js = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qunar/qunar.cookie.js,type=http-request,pattern=^https:\/\/user.qunar.com\/webapi\/member\/signNewIndex.htm
+qunar.cookie.js = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qunar/qunar.cookie.js,type=http-request,pattern=^https:\/\/user.qunar.com\/webapi\/member\/signIndexV2.htm
 # > CSDN
 csdn.cookie.js = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/csdn/csdn.cookie.js,type=http-request,pattern=^https:\/\/passport.csdn.net\/v2\/api\/app\/login\/checkAndRefreshToken
 csdn.cookie.js = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/csdn/csdn.cookie.js,type=http-request,pattern=^https:\/\/gw.csdn.net\/mini-app\/v2\/lucky_draw\/login\/sign_in\?
@@ -85,7 +85,7 @@ mihoyo.cookie.js = script-path=https://raw.githubusercontent.com/chavyleung/scri
 wmmeituan.cookie.js = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wmmeituan/wmmeituan.cookie.js,type=http-request,pattern=^https:\/\/promotion.waimai.meituan.com\/playcenter\/signIn\/entry
 wmmeituan.cookie.js = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wmmeituan/wmmeituan.cookie.js,requires-body=true,type=http-request,pattern=^https:\/\/promotion.waimai.meituan.com\/playcenter\/signIn\/doaction
 # > 网易新闻
-neteasenews.cookie.js = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasenews/neteasenews.cookie.js,requires-body=true,type=http-request,pattern=^https:\/\/c\.m\.163\.com\/uc\/api\/sign\/v2\/commit
+neteasenews.cookie.js = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasenews/neteasenews.cookie.js,requires-body=true,type=^https:\/\/v6-c\.m\.163\.com\/uc\/api\/sign\/v3\/commit
 # > QQ音乐
 qqmusic.cookie.js = requires-body=true,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qqmusic/qqmusic.cookie.js,type=http-request,pattern=^https:\/\/u.y.qq.com\/cgi\-bin\/musicu.fcg
 qqmusic.cookie.js = requires-body=true,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qqmusic/qqmusic.cookie.js,type=http-response,pattern=^https:\/\/u.y.qq.com\/cgi\-bin\/musicu.fcg
