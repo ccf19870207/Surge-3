@@ -40,6 +40,18 @@ TestFlight公测监控 = script-path=https://raw.githubusercontent.com/songyangz
 12306 = type=cron,cronexp=0 0 8 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/trainquery.js
 # > 实时货币换算
 实时汇率 = type=cron,cronexp=35 5 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/exchangeRate.js,script-update-interval=0
+# 纵横小说 (By Peng-YM)
+# 使用方法：进入纵横小说页面，例如<<剑来>>：http://book.zongheng.com/book/672340.html 则id为672340，将id添加到列表即可。 
+纵横小说= type=cron,cronexp=8 0 * * *,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/zongheng.js
+
+# GitHub监控(By Peng-YM)
+GitHub监控= type=cron,cronexp=8 0 * * *,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/github.js
+
+# Steam价格监控(By Peng-YM)
+Steam价格监控= type=cron,cronexp=8 0 * * *,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/steam.js
+
+# 汇率监控(By Peng-YM)
+汇率监控= type=cron,cronexp=8 0 * * *,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/exchange.js
 
 # 签到脚本
 
@@ -303,9 +315,16 @@ Zaker = type=cron,cronexp=55 3 0 * * *,script-path=https://raw.githubusercontent
 活动抽奖 = type=cron,cronexp=0 6 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/WeChatLottery_new.js
 # > 滴滴出行 (By @zZPiglet)
 滴滴出行 = type=cron,cronexp=0 6 0 * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi.js
+滴滴出行 = type=cron,cronexp=0 59 23 * * *,script-path=script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_reward.js
 # > 微信小程序-喜马拉雅 (By @makexp)
 # 微信小程序 - 喜马拉雅 - 我的： 签到 “ 获取 Cookie
 微信小程序-喜马拉雅 = type=cron,cronexp=5 6 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/xmly_wc.js
 # > 360扫地机 (By @qiaoborui)
 # 首页右上角-签到🎁
 360扫地机 = type=cron,cronexp=55 5 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/360.js,script-update-interval=0
+
+# 京东农场
+京东农场= type=cron,cronexp=8 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_fruit.js, tag=京东农场
+
+# 京东萌宠
+京东农场= type=cron,cronexp=8 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_pet.js, tag=京东萌宠

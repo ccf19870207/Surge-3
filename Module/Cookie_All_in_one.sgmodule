@@ -114,7 +114,7 @@ hdl.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.co
 wykl.cookie.js = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wykl/wykl.cookie.js,requires-body=true,type=http-request,pattern=^https:\/\/m-bean\.kaola\.com/m/point/sign\.html
 # > WPS
 wps.cookie.js = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.cookie.js,type=http-request,pattern=^https:\/\/zt.wps.cn\/2018\/ldocer_check_in\/api\/act_list
-wps.cookie.js = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.cookie.js,type=http-request,pattern=^https:\/\/zt.wps.cn\/2018\/clock_in\/api\/sign_up
+
 # > 七猫小说
 # 打开 APP, 然后到APP内福利界面手动日常签到(观看小视频领取奖励),新手领福利签到,视频签到以及幸运大转盘 1 次
 qmnovel.js = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qimao/qmnovel.js,type=http-request,pattern=^https:\/\/xiaoshuo\.qm989\.com
