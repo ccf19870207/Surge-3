@@ -254,6 +254,7 @@ Zaker = type=cron,cronexp=55 3 0 * * *,script-path=https://raw.githubusercontent
 # > 饿了么   (By @syzzzf)
 # 打开 APP, 访问下`我的`>`签到领红包`(左上角)
 饿了么 = type=cron,cronexp=35 4 0 * * *,script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js,script-update-interval=0
+饿了么-打卡领红包= type=cron,cronexp=35 4 0 * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js
 # > 斗鱼鱼吧 By @yyfyyf123
 斗鱼鱼吧 = type=cron,cronexp=40 4 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/yubaSign.js,script-update-interval=0
 # > 携程旅行  (By @barrymchen)
