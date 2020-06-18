@@ -9,9 +9,9 @@
 
 [Script]
 
-# App价格版本监控
+# > App价格版本监控
 # 需要appid
- App价格版本监控 = type=cron,cronexp=0 0 * * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Neurogram-R/AppMonitor.js,script-update-interval=0
+App价格版本监控 = type=cron,cronexp=0 0 * * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Neurogram-R/AppMonitor.js,script-update-interval=0
 # > 英雄联盟排名 (By @syzzzf)
 英雄联盟排名 = type=cron,cronexp=0 0 8 * * *,script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/lol.js,script-update-interval=0
 # > TestFlight公测监控 (By @syzzzf)
@@ -26,38 +26,37 @@ TestFlight公测监控 = script-path=https://raw.githubusercontent.com/songyangz
 倒数日 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/daysmatter.js,tag=倒数日,type=cron,cronexp=0 0 8 * * *
 # > 世界时间
 世界时间 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/time.js,tag=世界时间,type=cron,cronexp=0 0 8 * * *
-# 疫情查看 (By @Dachaw)
-# 需要自己改城市
-疫情查看 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/nCoV.js,type=cron,cronexp=0 0 8 * * *
-# 疫情辟谣 (By @Dachaw)
+# > 疫情查看 (By Peng-YM , Ark)
+疫情查看 = script-path=https://raw.githubusercontent.com/Mazetsz/QX/master/nCov_new.js,type=cron,cronexp=0 0 8 * * *
+# > 疫情辟谣 (By @Dachaw)
 疫情辟谣 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/nCoVrumors.js,type=cron,cronexp=0 0 8 * * *
-# 电视节目预告 (By @Macsuny)
+# > 电视节目预告 (By @Macsuny)
 # var c = “cctv1”
 # 常用卫视代码北京: btv1 | 湖南: hunan | 浙江: zhejiang|河南: henan| 江苏: jiangsu|广东: guangdong
 电视节目预告 = type=cron,cronexp=0 0 8 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/tvpreview.js,script-update-interval=0
-# 12306余票及列车时刻表查询(By @Macsuny)
+# > 12306余票及列车时刻表查询(By @Macsuny)
 # 可更改出发地、目的地、出发时间及列车车次
 12306 = type=cron,cronexp=0 0 8 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/trainquery.js
 # > 实时货币换算
 实时汇率 = type=cron,cronexp=35 5 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/exchangeRate.js,script-update-interval=0
 
-# 纵横小说 (By Peng-YM)
+# > 纵横小说 (By Peng-YM)
 # 使用方法：进入纵横小说页面，例如<<剑来>>：http://book.zongheng.com/book/672340.html 则id为672340，将id添加到列表即可。 
 纵横小说= type=cron,cronexp=8 0 * * *,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/zongheng.js
 
-# GitHub监控(By Peng-YM)
+# > GitHub监控(By Peng-YM)
 GitHub监控= type=cron,cronexp=8 0 * * *,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/github.js
 
-# Steam价格监控(By Peng-YM)
+# > Steam价格监控(By Peng-YM)
 Steam价格监控= type=cron,cronexp=8 0 * * *,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/steam.js
 
-# 汇率监控(By Peng-YM)
+# > 汇率监控(By Peng-YM)
 汇率监控= type=cron,cronexp=8 0 * * *,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/exchange.js
 
-# Epic周免(By Peng-YM)
+# > Epic周免(By Peng-YM)
 Epic周免= type=cron,cronexp=0 8 */7 * *,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/epic.js
 
-# PSN会免(By Peng-YM)
+# > PSN会免(By Peng-YM)
 PSN会免= type=cron,cronexp=0 9 1 * *,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/psn.js
 
 # 签到脚本
