@@ -336,6 +336,12 @@ Zaker = type=cron,cronexp=55 3 0 * * *,script-path=https://raw.githubusercontent
 # > 京东萌宠 (By liuxiaoyucc)
 京东农场= type=cron,cronexp=8 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_pet.js
 
+# > 京东宠汪汪 (By uniqueque)
+京东宠汪汪= type=cron,cronexp=8 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_joy.js
+
+# > 京东种豆得豆 (By uniqueque)
+京东种豆得豆= type=cron,cronexp=8 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_plantBean.js
+
 # > 微博超话 (By Evilbutcher & toulanboy)
 # 1.打开微博APP，"我的"， "超话社区"， "底部栏--我的"， "关注"， 弹出通知，提示获取已关注超话链接成功。
 # 2. 点进一个超话页面，手动签到一次。弹出通知，提示获取超话签到链接成功。 若之前所有已经签到，关注一个新超话进行签到。
