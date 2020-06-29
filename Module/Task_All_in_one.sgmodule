@@ -14,29 +14,39 @@
 # > App价格版本监控
 # 需要appid
 App价格版本监控 = type=cron,cronexp=0 0 * * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Neurogram-R/AppMonitor.js,script-update-interval=0
+
 # > 英雄联盟排名 (By @syzzzf)
 英雄联盟排名 = type=cron,cronexp=0 0 8 * * *,script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/lol.js,script-update-interval=0
+
 # > TestFlight公测监控 (By @syzzzf)
 # 需要自己填appkey
 TestFlight公测监控 = script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/testflight.js,type=cron,cronexp=0 0 * * * *
+
 # > 一言
 一言+历史上的今天 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Meeta/Surge/Scripting/Calendar.js,type=cron,cronexp=0 0 8 * * *
+
 # > 每日一句+ 蚂蚁森林收能量
 每日一句+蚂蚁森林收能量 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js,type=cron,cronexp=0 30 7 * * *
+
 # > 倒数日
 # 需要自己修改节日
 倒数日 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/daysmatter.js,tag=倒数日,type=cron,cronexp=0 0 8 * * *
+
 # > 世界时间
 世界时间 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/time.js,tag=世界时间,type=cron,cronexp=0 0 8 * * *
+
 # > 疫情日报 (By Peng-YM)
 疫情日报 = script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/nCov.js,type=cron,cronexp=0 0 8 * * *
+
 # > 疫情辟谣 (By @Dachaw)
 疫情辟谣 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/nCoVrumors.js,type=cron,cronexp=0 0 8 * * *
+
 # > 电视节目预告 (By @Macsuny)
 # var c = “cctv1”
 # 常用卫视代码北京: btv1 | 湖南: hunan | 浙江: zhejiang|河南: henan| 江苏: jiangsu|广东: guangdong
 电视节目预告 = type=cron,cronexp=0 0 8 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/tvpreview.js,script-update-interval=0
 # > 12306余票及列车时刻表查询(By @Macsuny)
+
 # 可更改出发地、目的地、出发时间及列车车次
 12306 = type=cron,cronexp=0 0 8 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/trainquery.js
 # > 实时货币换算
@@ -47,9 +57,14 @@ TestFlight公测监控 = script-path=https://raw.githubusercontent.com/songyangz
 纵横小说= type=cron,cronexp=8 0 * * *,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/zongheng.js
 
 # > GitHub监控(By Peng-YM)
+# name: "",//填写仓库名称，可自定义
+# file_names:[],//可选参数。若需要监控具体文件或目录，请填写路径
 GitHub监控= type=cron,cronexp=8 0 * * *,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/github.js
 
 # > Steam价格监控(By Peng-YM)
+# 1. 浏览器打开steam网站：https://store.steampowered.com/，搜索你想添加的游戏。
+# 2. 以GTA5为例，GTA5的STEAM商店链接为：https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/。
+# 3. id中填写271590即可, name中填写名字。
 Steam价格监控= type=cron,cronexp=8 0 * * *,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/steam.js
 
 # > 汇率监控(By Peng-YM)
@@ -253,6 +268,9 @@ Zaker = type=cron,cronexp=55 3 0 * * *,script-path=https://raw.githubusercontent
 # > 中国移动-查话费
 中国移动-查话费 = type=cron,cronexp=10 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10086/10086.fee.js,wake-system=true
 
+# > 万达电影
+万达电影 = type=cron,cronexp=10 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.js,wake-system=true
+
 #  其他
 
 # > 联通查话费流量
@@ -305,6 +323,7 @@ Zaker = type=cron,cronexp=55 3 0 * * *,script-path=https://raw.githubusercontent
 #2.打开微博钱包点击签到，获取Cookie，
 #3.钱包已经签到无法获取
 微博(钱包) = type=cron,cronexp=35 0 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js,script-update-interval=0
+
 # > 喜马拉雅极速版(By @Macsuny)
 # APP登陆账号后，点击右下角’福利’选项,即可获取Cookie.
 # 每隔一小时开启一次，每天最多5次，金币账户与标准版不同账户
@@ -313,26 +332,43 @@ Zaker = type=cron,cronexp=55 3 0 * * *,script-path=https://raw.githubusercontent
 # 1.打开app,点击”我的“=>”签到“，获取第一个Cookie，通知获取信息成功
 # 2.在未签到情况下，先禁用第一条Cookie链接，然后再次进入签到，通知获取签到Cookie成功
 新浪新闻 = type=cron,cronexp=0 5 0 * * *,script-path=Script/txnews.jshttps://raw.githubusercontent.com/Sunert/Scripts/master/Task/sinanews.js
+
 # > 中青看点极速版 (By @Macsuny)
 # 1.进入app，签到一次,即可获取Cookie. 
 # 2.阅读一篇文章，获取阅读请求body，
 # 3.在阅读文章最下面有个惊喜红包，点击获取惊喜红包请求
 # 4.激励视频获取方法: 关闭vpn，进入任务中心=>抽奖赚点击下面第一个宝箱，出现视频广告页面，然后打开vpn，等待视频播放完毕，点击点我继续领青豆，再重复一次上面操作，获取激励视频请求的body
 中青看点极速版 = type=cron,cronexp=35 5 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js,script-update-interval=0
+
 # > 微信小程序-活动抽奖 (By @makexp & @zZPiglet)
 #打开微信小程序 进入“活动抽奖”，手动签到一次或点击“已签到”
 活动抽奖 = type=cron,cronexp=0 6 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/WeChatLottery_new.js
+
 # > 滴滴出行 (By @zZPiglet)
+# 进入"滴滴出行"，若弹出"首次写入滴滴出行 Token 成功"
 滴滴出行 = type=cron,cronexp=0 6 0 * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi.js
+
 滴滴出行 = type=cron,cronexp=0 59 23 * * *,script-path=script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_reward.js
+
 # > 115 (By @zZPiglet)
+# 进入"115"并摇一摇
 115 = type=cron,cronexp=1 0 * * *,script-path=script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/115/115.js
 
 # > 喜茶 (By @zZPiglet)
+# 进入"喜茶GO"小程序，点击"我的"，进入"任务中心"
 喜茶 =type=cron,cronexp=30 5 0 * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/HEYTEA/HEYTEA.js,wake-system=1
 
 # > 奈雪 (By @zZPiglet)
+# 进入"奈雪点单"小程序，若弹出"首次写入奈雪の茶 Token 成功"
 奈雪 =type=cron,cronexp=35 5 0 * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Naixue/Naixue.js,wake-system=1
+
+# > 掌门好老师 (By @zZPiglet)
+# 进入"掌门好老师"，点击左上方"签到"或"📅"日历图标
+掌门好老师olllk =type=cron,cronexp=35 5 0 * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/ZMTeacher/ZMTeacher.js
+
+# > 便利蜂 (By @zZPiglet)
+# 进入"便利蜂"，点击"签到赚礼金"
+便利蜂 =type=cron,cronexp=35 5 0 * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Blibee/Blibee.js
 
 # > 微信小程序-喜马拉雅 (By @makexp)
 # 微信小程序 - 喜马拉雅 - 我的： 签到 “ 获取 Cookie
@@ -341,17 +377,25 @@ Zaker = type=cron,cronexp=55 3 0 * * *,script-path=https://raw.githubusercontent
 # 首页右上角-签到🎁
 360扫地机 = type=cron,cronexp=55 5 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/360.js,script-update-interval=0
 
-# > 京东农场 (By liuxiaoyucc)
+# > 京东农场 (By liuxiaoyucc、lxk0301 & iepngs)
+# 京东App - 右下角"我的"- 游戏与互动- 东东农场
 京东农场= type=cron,cronexp=8 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_fruit.js
 
-# > 京东萌宠 (By liuxiaoyucc)
+# > 京东萌宠 (By liuxiaoyucc、lxk0301 & iepngs)
+# 京东App - 右下角"我的"- 游戏与互动-东东萌宠
 京东农场= type=cron,cronexp=8 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_pet.js
 
-# > 京东宠汪汪 (By uniqueque)
-京东宠汪汪= type=cron,cronexp=8 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_joy.js
+# > 京东宠汪汪 (By uniqueque、lxk0301 & iepngs)
+# 京东App - 右下角"我的"- 游戏与互动-宠汪汪
+京东宠汪汪= type=cron,cronexp=0 */3 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_joy.js
 
-# > 京东种豆得豆 (By uniqueque)
-京东种豆得豆= type=cron,cronexp=8 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_plantBean.js
+# > 京东种豆得豆 (By uniqueque、lxk0301 & iepngs)
+# 京东App - 右下角"我的"- 游戏与互动-种豆得豆
+京东种豆得豆= type=cron,cronexp=8 7-21/3 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_plantBean.js
+
+# > 京东摇钱树 (By lxk0301)
+# 京东App - 右下角"我的"- 游戏与互动-摇钱树
+京东摇钱树=type=cron,cronexp=*/6 * * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jd_moneyTree.js
 
 # > 微博超话 (By Evilbutcher & toulanboy)
 # 1.打开微博APP，"我的"， "超话社区"， "底部栏--我的"， "关注"， 弹出通知，提示获取已关注超话链接成功。
@@ -359,10 +403,13 @@ Zaker = type=cron,cronexp=55 3 0 * * *,script-path=https://raw.githubusercontent
 微博超话 = type=cron,cronexp=5 0 * * *,script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/weibo/weibotalk.js,wake-system=true,timeout=600
 
 # > 小木虫论坛(By toulanboy)
+# 打开小木虫app => 发现页面 => 签到领红包 => 拆红包。
 小木虫论坛 = type=cron,cronexp=5 0 * * *,script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/muchong/muchong.js,wake-system=true,timeout=600
 
 # > qq会员成长值签到 (By @lowking0415)
+# 手机qq进入左侧会员，滑动即可
 qq会员签到 = type=cron,cronexp=0 0 0,1 * * ?,wake-system=1,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/QQVip/qqVipCheckIn.js,script-update-interval=0
 
 # > 叮咚农场养鱼(By iepngs)
+# 叮咚买菜App - 右下角"我的"- 叮咚农场
 叮咚农场养鱼type=cron,cronexp="1 8,12,17 * * *" script-path=https://raw.githubusercontent.com/iepngs/Script/master/dingdong/index.js,wake-system=true,timeout=600
