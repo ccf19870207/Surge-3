@@ -18,6 +18,8 @@ Wps.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.co
 XMind.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/XMind.js,type=http-response,pattern=https:\/\/www\.xmind\.cn\/\_res\/devices
 # > photoshop
 photoshop.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/photoshop.js,script-update-interval=0,type=http-response,pattern=^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile
+# > NOMO
+NoMoCam=type=http-request,pattern=^https?:\/\/nomo\.dafork\.com\/api\/.+,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/NoMoCamProCrack.js,script-update-interval=0
 # > Lightroom
 Lightroom.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/Lightroom.js,script-update-interval=0,type=http-response,pattern=^https:\/\/photos\.adobe\.io\/v2\/accounts
 [MITM]
